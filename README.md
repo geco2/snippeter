@@ -28,17 +28,20 @@ GNU General Public License for more details.
 
 See the COPYING file in your DokuWiki folder for details
 
+----
 
-============ HOWTO ============
+HOWTO
+=========
 
-==== Configuration ====
+Configuration
 After successful installation you will find an additional chapter in the 
 wiki configuration wizard called "sippeter". Withing that section you can
 configure the namespace you want to use for your snippets.
 
 The plugin provide a shortcut for each page created in that namespace.
 
-==== Create snippets ====
+Create snippets
+========
 In general you can use any wikipage placed in the namespace you configured
 for snippeter. To add an icon to identify the snipped within the editor toolbar,
 you have to add the picture you plan to use using the dokuwiki media manager
@@ -49,6 +52,7 @@ be changed in the future. Please refresh dokuwikis caches to see your new icon!
 (touch the file local.php)
 
 Valid Example:
+
 	{{ :snippets:phone16.png |}}
 	
 	==== Call: <project> - <description> ====
@@ -61,13 +65,15 @@ Valid Example:
 	
 	----
 	
-==== Usage ====
+Usage
+========
 Snippeter create a shortcut within the default editor toolbar (the "+" icon). That
 icon open up an overview of you snippets. While choose one of them with a klick on 
 the related icon will insert your snippet without the media manager information for
 the icon on the current curser position within your open wiki page.
 
-==== FAQ ====
+FAQ
+========
 Q: I added a customized icon for my snipped, but snippeter still provide the default one
 in the toolbar.
 A: Please reset DokuWikis cache while touch the file conf/local.php or press the save
