@@ -40,7 +40,7 @@ class action_plugin_snippeter extends DokuWiki_Action_Plugin {
 			$iconstring = '';
 			
 			//Search for icon
-			$snimediadir = '/ext/wiki/lib/exe/fetch.php?media='.$snins.':';
+			$snimediadir = '../../exe/fetch.php?media='.$snins.':';
 
 			$lines = file($snipath.'/'.$file);
 			foreach($lines as $line){
