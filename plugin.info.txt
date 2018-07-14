@@ -1,7 +1,7 @@
 base   snippeter
 author Andreas Eisenreich
-email  andi@nanuc.de
-date   2014-08-20
+email  andreas.eisenreich@posteo.net
+date   2018-07-14
 name   snippeter plugin
 desc   Add document snippets into a page.
 url    https://github.com/geco2/snippeter
