@@ -17,10 +17,11 @@ class action_plugin_snippeter extends DokuWiki_Action_Plugin {
     } 
 
 	function toolbarEventHandler(&$event, $param) {
+		global $conf;
 	
 		//find pages based on namespace configuration
 		$snins = $this->getConf('namespace');
-		$snipath  = '../../data/pages/'.$snins;
+		$snipath  = $conf['datadir'] . "/" . $snins;
 		$snifiles = scandir($snipath);
 		
 		//Initialize menu array
