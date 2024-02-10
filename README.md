@@ -78,7 +78,9 @@ Some part of the snippet can be dynamically replaced by an automatic content. In
 
 The possible variables names are:
 
-| `PAGE_TITLE` | the id of the currently edited page, underscores replaced by spaces|
+| Variable name | Description |
+| ------------- | ----------- |
+| `PAGE_TITLE` | the id of the currently edited page, underscores replaced by spaces |
 | `CURRENT_DATE` | the current date in iso format, e.g.: 2024-02-10 for the 10th February, 2024 |
 | `CURRENTDATE` | the current date in format YYYYMMDD, e.g.: 20240210 for the 10th February, 2024 |
 | `CURRENT_DATE_UNDERSCORE` | the current date in format YYYY_MM_DD, e.g.: 2024_02_10 for the 10th February, 2024 |
