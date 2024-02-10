@@ -1,2 +1,2 @@
 <?php
-$lang['js']['choose'] = 'Choisissez votre snippet';
+$lang['choose'] = 'Choisissez votre snippet';
