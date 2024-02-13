@@ -29,7 +29,8 @@ class action_plugin_snippeter extends DokuWiki_Action_Plugin {
 			'type'  => 'picker',
 			'title' => $this->getLang('choose'),
 			'icon'  => '../../plugins/snippeter/images/icon.png',
-			'list'  => array()
+			'list'  => array(),
+			'id' => 'Snippeter'
 		);
 		
 		//create menu entries

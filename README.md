@@ -72,6 +72,21 @@ icon open up an overview of you snippets. While choose one of them with a klick 
 the related icon will insert your snippet without the media manager information for
 the icon on the current curser position within your open wiki page.
 
+Templating
+========
+Some part of the snippet can be dynamically replaced by an automatic content. In the snippet text, you need to use the variable name in between `< >`.
+
+The possible variables names are:
+
+| Variable name | Description |
+| ------------- | ----------- |
+| `PAGE_TITLE` | the id of the currently edited page, underscores replaced by spaces |
+| `CURRENT_DATE` | the current date in iso format, e.g.: 2024-02-10 for the 10th February, 2024 |
+| `CURRENTDATE` | the current date in format YYYYMMDD, e.g.: 20240210 for the 10th February, 2024 |
+| `CURRENT_DATE_UNDERSCORE` | the current date in format YYYY_MM_DD, e.g.: 2024_02_10 for the 10th February, 2024 |
+| `CURRENT_DATE_DASH` | the current date in format YYYY/MM/DD, e.g.: 2024/02/10 for the 10th February, 2024 |
+| `CURRENT_DATE_LOCALE` | the current date in Locale format, format will depend on your server setup |
+
 FAQ
 ========
 Q: I added a customized icon for my snipped, but snippeter still provide the default one
